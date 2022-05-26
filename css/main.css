@@ -1,0 +1,113 @@
+/* font-family: 'Big Shoulders Display', cursive; */
+/* font-family: 'Lexend Deca', sans-serif; */
+html {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card {
+    display: flex;
+    padding: 0;
+    width: 920px;
+    height: 500px;
+    /* padding-top: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+    padding-left: 48px; */
+
+}
+
+.card-full {
+    width: 307px;
+    height: 400px;
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    list-style: none;
+    border-radius: 8px;
+}
+
+.card-sedan {
+
+    background-color: #E28625;
+}
+
+.card-sedan-logo {
+    margin-bottom: 35px;
+}
+
+.card-sedan-theme {
+    margin: 0;
+    margin-bottom: 28px;
+    width: 101px;
+    height: 48px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+
+.card-sedan-text {
+    margin: 0;
+    margin-bottom: 83px;
+    font-family: "Lexend Deca", sans-serif;
+    width: 174px;
+    height: 125px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.card-suv {
+    background-color: #006971;
+}
+
+.card-luxury {
+    background-color: #004140;
+}
+
+.card-link {
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #fff;
+    padding-top: 12px;
+    padding-right: 32px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    transition: background-color 0.7s, color 1s, border 0.5s;
+}
+
+.card-link:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.card-sedan {
+    color: #E28625;
+}
+
+.card-suv {
+    color: #006971;
+}
+
+.card-luxury {
+    color: #004140;
+}
